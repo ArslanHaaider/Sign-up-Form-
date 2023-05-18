@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-</head>
+</heads>
 <body>
     <div class="formPage">
         <div class="sideImage">
@@ -19,7 +19,7 @@
         <div class="formDiv">
             <h3></h3>
             <div class="formWraper">
-                <form action="#" method="post">
+                <form action="#" method="post" class="form">
                 <h2>Lets Go to Valhalla!</h1>
                     <div class="fieldBox-left">
                         <div>
@@ -37,7 +37,7 @@
                             <br>
                             <input type="password" name="name" id="password">
                           </div>
-                          
+                          <p></p>
                     </div>
                     <div class="fieldBox-right">
                         <div>
@@ -48,20 +48,21 @@
                           <div>
                             <label for="phoneNumber" class="label">PHONE NUMBER</label>
                             <br>
-                            <input type="number" name="name" id="phoneNumber">
+                            <input type="text" name="name" id="phoneNumber">
                           </div>
                           <div>
                             <label for="confirm_Password" class="label">CONFIRM PASSWORD</label>
                             <br>
                             <input type="password" name="name" id="confirm_Password">
                           </div>
+                          <p class="passwordMatch"></p>
                     </div>
                     <button class="submit">Submit</button>
                 </form>
             </div>
         </div>
-
-
     </div>
+<script src="./script.js"></script>
+
 </body>
 </html>
